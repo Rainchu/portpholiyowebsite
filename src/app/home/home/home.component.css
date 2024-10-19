@@ -1,0 +1,9 @@
+img{
+    border-radius: 50%;
+}
+.logo{
+   filter: invert(100%);
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}

@@ -1,0 +1,22 @@
+.imgdiv{
+   box-shadow: 50px;
+    
+}
+
+.cursor-pointer{
+    opacity: 0.5;
+}
+
+table{
+    border-spacing: 0 20px;
+    border-collapse: separate;
+}
+.active{
+    background-color: #333;  /* Example background color for the active tab */
+    color: yellow;           /* Example text color for the active tab */
+    padding: 5px;
+    border-radius: 5px;
+}
+ul li{
+    margin-top: 12px;
+}
