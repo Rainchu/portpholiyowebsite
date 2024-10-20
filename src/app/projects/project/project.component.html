@@ -1,0 +1,22 @@
+<div class="w-10/12 m-auto h-lvh  flex justify-between grid-container">
+  
+    
+
+    <div *ngFor="let item of dataArr, let i=index" class="w-64 m-1 rounded-lg shadow-2xl bg-white text-black ">
+       <img [src]="item.projectImg" class="w-full h-28 rounded-md" alt="">
+      
+      @if (openBox === i) {
+       <p class="p-2">{{item.projectDesc}}</p>
+      }
+
+      @if (shortDesc[i]) {
+       <p class=" font-thin text-xs textClamp">{{item.projectDesc}}</p>
+      }
+       <p class="w-full flex justify-around bg-blue-700
+        text-white cursor-pointer" >
+      {{item.projectName}} <span class="text-end" (click)="openDesc(i)">{{readLessMore[i]}}</span>
+    </p>
+    </div>
+    
+ 
+</div>

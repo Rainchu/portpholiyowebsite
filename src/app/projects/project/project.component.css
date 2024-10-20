@@ -1,0 +1,31 @@
+
+.textClamp{
+    display: -webkit-box;           /* Use a flexible box layout */
+    -webkit-box-orient: vertical;   /* Set the box orientation to vertical */
+    -webkit-line-clamp: 2;          /* Limit to 2 lines */
+    overflow: hidden;               /* Hide the overflow text */
+    text-overflow: ellipsis;
+    letter-spacing: 2px;
+    padding: 2px;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px; /* Adjust gap between items as needed */
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* 1 item per row for small screens */
+    }
+  }
+  

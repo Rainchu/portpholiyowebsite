@@ -1,10 +1,10 @@
 <div class="w-full bg-black h-7 flex justify-between items-center mb-5">
-  <a href="" class="text-white text-2xl">Portpholio</a>
+  <a href="" class="text-white text-2xl">Portfolio</a>
   <div class="flex justify-between text-white font-medium">
-    <a [routerLink]="''">Home</a>
-    <a [routerLink]="'about'">About</a>
-    <a [routerLink]="'contact'">Service</a>
-    <a [routerLink]="'about'">Portpholio</a>
-    <a [routerLink]="'contact'">Contact</a>
+    <a [routerLink]="''" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a [routerLink]="'about'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">About</a>
+    <a [routerLink]="'project'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Projects</a>
+    <a [routerLink]="'portfolio'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Portfolio</a>
+    <a [routerLink]="'contact'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Contact</a>
   </div>
 </div>

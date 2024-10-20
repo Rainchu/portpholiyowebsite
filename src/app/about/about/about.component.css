@@ -12,11 +12,19 @@ table{
     border-collapse: separate;
 }
 .active{
-    background-color: #333;  /* Example background color for the active tab */
-    color: yellow;           /* Example text color for the active tab */
+    background-color: #333; 
+    color: yellow;          
     padding: 5px;
     border-radius: 5px;
 }
 ul li{
     margin-top: 12px;
 }
+@media(max-width : 600px){
+  .heada{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+

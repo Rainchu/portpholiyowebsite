@@ -2,4 +2,13 @@ a{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
+
+  
+  /* Active link styling */
+  .active-link {
+    color: darkgoldenrod;
+       
+  }

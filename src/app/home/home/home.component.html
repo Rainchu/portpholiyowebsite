@@ -3,22 +3,34 @@
   <h1 class="font-semibold text-xl">Hi, Myself</h1>
   <h1 class="font-bold text-3xl">Rohit Pal</h1>
   <h1 class="font-semibold text-xl">And I am Dot Net Developer</h1>
-  <p class="mt-2">I had worked as an android Developer Now I want to switch my job into Dot Net Developer</p>
+  <p class="mt-2 font-thin text-sm">I had worked as an android Developer Now I want to switch my job into Dot Net Developer</p>
 
 
+ 
   <div class="flex mt-3">
-    <img src="../../../assets/image/facebook.png" class="w-5 h-7 logo" alt="">
-    <img src="../../../assets/image/instagram.png" class="w-5 h-7 logo" alt="">
-    <img src="../../../assets/image/youtube.png" class="w-5 h-7 logo" alt="">
-    <img src="../../../assets/image/telegram.png" class="w-5 h-7 logo" alt="">
-    <img src="../../../assets/image/linkedin.png" class="w-5 h-7 logo" alt="">
-    <img src="../../../assets/image/twitter.png" class="w-5 h-7 logo bg-blue-900" alt="">
-  </div>
+  
+
+    <a [href]="urls[i]" *ngFor="let url of icons,let i=index">
+      <img [src]="url" class="w-5 h-7 logo" alt="">
+    </a>
+
+    
+    
+ 
+
+ <!-- //<a href="{{urls[0]}}" target="_blank"><span ><i class="fi fi-brands-facebook logo"></i></span></a> -->
+
+
+
+</div> 
 
   
-  <button class="rounded-lg bg-blue-800 p-4 h-7 flex items-center mt-5">
-   Download cv
-  </button>
+  <a href="../../../assets/image/spr.pdf" download="YourCV.pdf">
+    <button class="rounded-lg bg-blue-800 p-4 h-7 flex items-center mt-5 text-white">
+      Download CV
+    </button>
+  </a>
+  
 
 
 </div>

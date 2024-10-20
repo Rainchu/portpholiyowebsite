@@ -1,4 +1,4 @@
-<div class="w-full h-lvh bg-black flex justify-between">
+<div class="w-full h-lvh bg-black flex justify-between heada">
   <div class="w-1/2 h-3/4 flex justify-center">
     <div class="p-3 rounded-md imgdiv">
       <img
@@ -41,24 +41,23 @@
         <ul>
           <li>
             <p class="text-xs font-light">
-              I have 10 months Experience of Android Developement in Orasis
-              Infotech Pvt. Ltd.
+             {{expArray[0]}}
             </p>
           </li>
           <li>
-            <p class="text-xs font-light">I did internship in JAVAEE in Wipro ltd</p>
+            <p class="text-xs font-light">{{expArray[1]}}</p>
           </li>
           <li>
-            <p class="text-xs font-light">I have Experience to create api using asp.net in web form</p>
+            <p class="text-xs font-light">{{expArray[2]}}</p>
           </li>
           <li>
-            <p></p>
+            <p id="webdev" class="text-white text-xs font-light">{{expArray[3]}}</p>
           </li>
           <li>
             <p></p>
           </li>
         </ul>
-        <p id="webdev" class="text-white text-xs font-light">Web App Developement</p>
+       
       </div>
       } @else if (openDiv == 2) {
       <div>
@@ -66,15 +65,15 @@
         <table class="w-full">
           <tr>
             <td class="text-xs font-light">College Name</td>
-            <td><p class="text-xs font-light">Chandigarh Engineering College Landran Mohali Punjab</p></td>
+            <td><p class="text-xs font-light">{{educationArr[0]}}</p></td>
           </tr>
           <tr>
             <td class="text-xs font-light">Branch</td>
-            <td class="text-xs font-light">Information Technology</td>
+            <td class="text-xs font-light">{{educationArr[1]}}</td>
           </tr>
           <tr>
             <td class="text-xs font-light">Duration</td>
-            <td><span class="text-xs font-light">july 2018 </span> <span class="w-3"></span><span class="text-xs font-light">september 2022</span> </td>
+            <td><span class="text-xs font-light">{{educationArr[2]}} </span> </td>
           </tr>
         </table>
       </div>

@@ -10,6 +10,15 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+
+  public expArray :string[]=[' I have 10 months Experience of Android Developement in Orasis Infotech Pvt. Ltd.',
+    'I did internship in JAVAEE in Wipro ltd',
+    'I have Experience to create api using asp.net in web form',
+    'Web App Developement'
+  ]
+
+  public educationArr :string[] = ['Chandigarh Engineering College Landran Mohali Punjab','Information Technology','july 2018 to september 2022']
+
   public openDiv : number = 0
 
   skills(){

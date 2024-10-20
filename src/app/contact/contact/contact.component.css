@@ -2,3 +2,16 @@
     border: 2px solid burlywood;
     border-radius: 50%;
 }
+@media (max-width: 600px) {
+    .m-auto {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .w-10/12 {
+        flex-direction: column; /* Ensure the parent also stacks items vertically */
+        justify-content: center; /* Center items vertically */
+    }
+}

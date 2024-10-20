@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+ public copyright : string = 'Copyright @Rohit,Made by Technical_rainchu'
 }
