@@ -16,7 +16,7 @@
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/portpholiyowebsite/",
+            "baseHref": "/",
             "polyfills": [
               "zone.js"
             ],
