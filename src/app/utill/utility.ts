@@ -4,3 +4,7 @@ export interface Project{
     projectDesc : string;
     projectImg :string
 }
+export interface ContactDetails{
+    contactImg:string;
+    contactUrl:string
+}

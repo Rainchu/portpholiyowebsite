@@ -1,10 +1,23 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <div class="w-full bg-black h-7 flex justify-between items-center mb-5">
   <a href="" class="text-white text-2xl">Portfolio</a>
-  <div class="flex justify-between text-white font-medium">
-    <a [routerLink]="''" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
-    <a [routerLink]="'about'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">About</a>
-    <a [routerLink]="'project'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Projects</a>
-    <a [routerLink]="'portfolio'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Portfolio</a>
-    <a [routerLink]="'contact'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Contact</a>
+  <div class="flex justify-end text-white font-medium htext">
+    <img  src="../../../assets/image/menu.png" (click)="openNavBar()" style="display: none;" class="w-5 h-5 disimg" alt="" srcset="">
+    
+ 
+
+    
+    <div class="navitem" [style.display]="showNavItem ? 'block' : 'none'">
+ 
+    <a class="na" [routerLink]="''" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a class="na"  [routerLink]="'/about'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">About</a>
+    <a class="na"  [routerLink]="'/project'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Projects</a>
+    <a class="na"  [routerLink]="'/portfolio'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Portfolio</a>
+    <a class="na"  [routerLink]="'/contact'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Contact</a>
+  </div>
+
+    
   </div>
 </div>

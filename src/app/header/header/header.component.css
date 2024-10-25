@@ -5,10 +5,43 @@ a{
     color: white;
     text-decoration: none;
 }
-
+img{
+  filter: invert(100%);
+}
   
   /* Active link styling */
   .active-link {
     color: darkgoldenrod;
        
   }
+
+
+  @keyframes rotatenavitems{
+    0%{
+      transform: rotate(0deg) scale(1);
+    }
+    50%{
+      transform: rotate(180deg) scale(1.5);
+    }
+    100%{
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+  .na:hover{
+ animation: rotatenavitems 1s ease-in-out;
+   }
+
+   @media(max-width:600px){
+    .htext{
+      display: flex !important;
+      flex-direction: column !important;
+      
+    }
+    .disimg{
+      display: inline !important;
+    }
+    .navitem{
+      display: none !important;
+    }
+   }

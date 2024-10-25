@@ -2,3 +2,43 @@
     border: 2px solid burlywood;
     border-radius: 50%;
 }
+
+
+@keyframes rotateContact{
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+    50%{
+        transform: rotate(180deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+.contactbox{
+    transition: width 2s ease,height 2s ease;
+}
+
+.contactbox:hover{
+    animation:rotateContact 2s ease-in-out ;
+    width: 200px;
+    height: 200px;
+}
+
+@media(max-width:600px){
+    .contactboxheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactbox{
+        margin-top: 25px;
+    }
+    .font-extrabold{
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+

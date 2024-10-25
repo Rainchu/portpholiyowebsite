@@ -16,4 +16,49 @@ img {
     filter: invert(100%); /* Invert colors for logos */
     margin-left: 10px;
     margin-right: 10px; /* Margin between logos */
+    transition: width 1s ease,height 1s ease;
 }
+
+.logo:hover{
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes rotateAndScale {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.5);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+
+.cv{
+    transition:height 1s ease,background-color 2s ease;
+}
+.cv:hover{
+    animation: rotateAndScale 2s ease;
+    height: 40px;
+   
+    background-color: greenyellow;
+}
+
+
+
+.mimg{
+    transition: width 1s ease,height 1s ease,border-radius 1s ease;
+}
+.mimg:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+
+
+

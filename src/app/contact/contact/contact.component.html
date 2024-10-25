@@ -2,40 +2,14 @@
     <h2 class="text-3xl font-extrabold text-white ms-14">Contact</h2>
 
 
-<div class="w-10/12 m-auto h-lvh flex justify-between items-center">
+<div class="w-10/12 m-auto h-lvh flex justify-between items-center contactboxheader">
  
-  <div class="flex justify-center items-center flex-col cursor-pointer">
+  <div class="flex justify-center items-center flex-col cursor-pointer contactbox" *ngFor="let item of contactDet,let i=index">
     <div class="w-28 h-28 text-white rou flex justify-center items-center">
-      <p>7754076940</p>
+      <img [src]="item.contactImg" class="w-11 h-11" alt="" />
     </div>
-    <p class="text-white">Phone</p>
-  </div>
-  <div class="flex justify-center items-center flex-col cursor-pointer">
-    <div class="w-28 h-28 text-white rou flex justify-center items-center">
-      <img src="../../../assets/image/gmail.png" class="w-11 h-11" alt="" />
-    </div>
-    <p class="text-white">{{email}}</p>
+    <p class="text-white">{{item.contactUrl}}</p>
   </div>
 
-  <div class="flex justify-center items-center flex-col cursor-pointer">
-    <div class="w-28 h-28 text-white rou flex justify-center items-center">
-      <img
-        src="../../../assets/image/telegram (1).png"
-        class="w-11 h-11"
-        alt=""
-      />
-    </div>
-    <p class="text-white text-center">Telegram</p>
-  </div>
-  <div class="flex justify-center items-center flex-col cursor-pointer">
-    <div class="w-28 h-28 text-white rou flex justify-center items-center">
-      <img
-        src="../../../assets/image/linkedin (1).png"
-        class="w-11 h-11"
-        alt=""
-      />
-    </div>
-    <p class="text-white">Linkedin</p>
-  </div>
 </div>
 </div>
