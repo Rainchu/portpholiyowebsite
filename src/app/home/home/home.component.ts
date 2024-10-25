@@ -14,10 +14,10 @@ export class HomeComponent {
  
 
   public icons: string[] = [
-    '../../../assets/image/facebook.png',
-    '../../../assets/image/instagram.png',
-    '../../../assets/image/linkedin.png',
-    '../../../assets/image/youtube.png'
+    'assets/image/facebook.png',
+    'assets/image/instagram.png',
+    'assets/image/linkedin.png',
+    'assets/image/youtube.png'
   ];
 
   public urls:string[] = [Constants.faceBookUrl,Constants.instagramUrl,Constants.linkedinUrl,Constants.youtubeUrl];

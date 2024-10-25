@@ -30,27 +30,27 @@ export class ProjectComponent implements OnInit{
       {
        projectName : 'Online Job Portal',
        projectDesc :'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia exercitationem officiis magnam nesciunt eos. Ullam voluptatum vitae ut sint eum optio, praesentium minus obcaecati fugiat quaerat aliquam culpa nesciunt architecto?',
-       projectImg :'../../../assets/image/onlinejobportal.jpg'
+       projectImg :'assets/image/onlinejobportal.jpg'
       },
       {
         projectName : 'Visitor Management',
         projectDesc :'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia exercitationem officiis magnam nesciunt eos. Ullam voluptatum vitae ut sint eum optio, praesentium minus obcaecati fugiat quaerat aliquam culpa nesciunt architecto?',
-        projectImg :'../../../assets/image/visitor.png'
+        projectImg :'assets/image/visitor.png'
        },
        {
         projectName : 'Blog Api',
         projectDesc :'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia exercitationem officiis magnam nesciunt eos. Ullam voluptatum vitae ut sint eum optio, praesentium minus obcaecati fugiat quaerat aliquam culpa nesciunt architecto?',
-        projectImg :'../../../assets/image/blog1.png'
+        projectImg :'assets/image/blog1.png'
        },
        {
         projectName : 'Online Job Portal',
         projectDesc :'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia exercitationem officiis magnam nesciunt eos. Ullam voluptatum vitae ut sint eum optio, praesentium minus obcaecati fugiat quaerat aliquam culpa nesciunt architecto?',
-        projectImg :'../../../assets/image/rp.jpg'
+        projectImg :'assets/image/rp.jpg'
        },
        {
         projectName : 'Online Job Portal',
         projectDesc :'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia exercitationem officiis magnam nesciunt eos. Ullam voluptatum vitae ut sint eum optio, praesentium minus obcaecati fugiat quaerat aliquam culpa nesciunt architecto?',
-        projectImg :'../../../assets/image/rp.jpg'
+        projectImg :'assets/image/rp.jpg'
        },
     ]
 
