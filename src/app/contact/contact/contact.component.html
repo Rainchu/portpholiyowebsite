@@ -6,7 +6,7 @@
  
   <div class="flex justify-center items-center flex-col cursor-pointer contactbox" *ngFor="let item of contactDet,let i=index">
     <div class="w-28 h-28 text-white rou flex justify-center items-center">
-      <img src="assets/image/calling.jpg" class="w-11 h-11" alt="" />
+      <img [src]="item.contactImg" class="w-11 h-11" alt="" />
     </div>
     <p class="text-white">{{item.contactUrl}}</p>
   </div>

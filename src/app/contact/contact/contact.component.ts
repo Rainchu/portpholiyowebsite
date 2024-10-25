@@ -13,16 +13,16 @@ export class ContactComponent {
   
   
   public contactDet : ContactDetails[]=[{
-    contactImg : "../../../assets/image/calling.jpg",
+    contactImg : "assets/image/calling.jpg",
     contactUrl : '7754076940'
   },{
-    contactImg : '../../../assets/image/gmail.png',
+    contactImg : 'assets/image/gmail.png',
     contactUrl : 'rainchu786420@gmail.com'
   },{
-    contactImg : '../../../assets/image/telegram (1).png',
+    contactImg : 'assets/image/telegram (1).png',
     contactUrl : 'Telegram'
   },{
-    contactImg : '../../../assets/image/linkedin (1).png',
+    contactImg : 'assets/image/linkedin (1).png',
     contactUrl :'Linkedin'
   }]
   
