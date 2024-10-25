@@ -31,7 +31,7 @@ img{
   .na:hover{
  animation: rotatenavitems 1s ease-in-out;
    }
-
+/* 
    @media(max-width:600px){
     .htext{
       display: flex !important;
@@ -44,4 +44,4 @@ img{
     .navitem{
       display: none !important;
     }
-   }
+   } */
